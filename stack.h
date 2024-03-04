@@ -21,6 +21,7 @@ void createStack(Stack *s);
 bool isEmpty(Stack *s);
 bool isFull(Stack *s);
 //usual stack operations such as push and pop
+//push operation returns true if a new element was successfully added into the stack
 bool push(Stack *s,int value);
 int pop(Stack *s);
 //the ability to print a stack
